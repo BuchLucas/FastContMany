@@ -44,8 +44,3 @@ jobs:
         with:
           name: package
           path: ${{ steps.buildozer.outputs.filename }}
-Step 1: make a repo in GitHub.
-
-Step 2: Add all your project files to the repo
-
-(Make sure your main.py and buildozer.spec are in the root dir i.e.: out side of any-folders)
