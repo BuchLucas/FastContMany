@@ -108,8 +108,7 @@ kv1 = """
 
 
 """
-
-LayoutMain = Builder.load_string(kv1)
+Builder.load_string(kv1)
 
 class FastCalMan(BoxLayout):
     def calcular(self):
