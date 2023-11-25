@@ -4,7 +4,7 @@
 title = Conte Rapido Dinheiro
 
 # (str) Package name
-package.name = com.conte.rapido.adambuch
+package.name = fastcontemanyadambuch
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 0.2
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.7.6,hostpython3==3.7.6,kivy==1.9.0
+requirements = python3==3.7.6,hostpython3==3.7.6,kivy==1.9.0,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -47,7 +47,7 @@ requirements = python3==3.7.6,hostpython3==3.7.6,kivy==1.9.0
 #presplash.filename = %(source.dir)s/data/presplash.png
 
 # (str) Icon of the application
-#icon.filename = %(source.dir)s/data/icon.png
+icon.filename =icon.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
